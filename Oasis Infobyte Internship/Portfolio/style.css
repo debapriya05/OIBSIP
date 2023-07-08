@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    background-image: url("cont.avif");
+    height: 650px;
+    width: 1000px;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(8, 8, 8, 0.933), 5px 5px 5px rgba(0, 0, 0, 0.927);
+    margin-left: 250px;
+    margin-top: 70px;
+    opacity: 0.99;
+    padding-top: 15px;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: Lucida Handwriting;
+    background:linear-gradient(to left,black,rgb(247, 2, 2),rgb(13, 13, 13));
+    -webkit-background-clip: text;
+    color:transparent;
+    float: left;
+    margin-left: 445px;
+    margin-top: 70px;
+}
+
+.menu {
+    margin-top: 120px;
+    margin-left: 30px;
+    position: absolute;
+    padding: 15px 13px;
+    float: left;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 20px 20px;
+    color: rgb(10, 10, 10);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu ul li a:hover {
+    background: linear-gradient(to left, rgb(247, 2, 2), rgb(12, 12, 12));
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(94, 13, 13);
+    text-decoration-thickness: 3px;
+    background-color: grey;
+
+}
+
+.menu ul li a:active {
+    background: linear-gradient(to left, rgb(0, 68, 21), rgb(12, 12, 12));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title {
+    font-family: georgia;
+}
+
+label i {
+    background: linear-gradient(to left, rgb(10, 10, 10), rgb(17, 16, 16));
+    -webkit-background-clip: text;
+    color: transparent;
+    size: 35px;
+}
+
+label i:hover {
+    background: linear-gradient(to left, rgb(247, 2, 2), rgb(12, 12, 12));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+label i:active {
+    background: linear-gradient(to left, rgb(0, 68, 21), rgb(12, 12, 12));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+label {
+    font-size: 20px;
+}
+
+.photo {
+    float: right;
+    margin-top: 45px;
+    margin-right: 300px;
+}
+
+.photo img {
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(8, 8, 8, 0.933), 8px 8px 15px rgba(8, 8, 8, 0.933);
+}
+
+.details {
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+.details ul li {
+    list-style: none;
+    padding: 5px 5px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.sub-container{
+    float:right;
+    height: 430px;
+    width:660px; 
+    margin-top: 40px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border: groove 3px black;
+}
+
+.about p{    
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-align: justify;
+    padding:8px;
+    line-height: 1.5;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.skills p{
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-align: justify;
+    padding:4px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.skills ul{
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-align: justify;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.skills ul li{
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-align: justify;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.contact p{
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-align: justify;
+    padding:12px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.contact ul li{
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-align: justify;
+    padding:10px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.resume p{
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    text-align: justify;
+    padding:12px;
+    font-size: 17px;
+    font-family: Lucida handwriting;
+}
+
+.resume ul li{
+    padding:4px;
+}
+
+.resume-details{
+    list-style: none;
+    padding: 5px 5px;
+    font-size: 17px;
+    font-family: Lucida Handwriting;
+    background: linear-gradient(to left, rgb(247, 2, 2), rgb(12, 12, 12));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.btn{
+    padding:10px;
+    border-radius: 20px;
+    background-color: aqua;
+    width:140px;
+    font-size:15px;
+    font-family: cursive;
+}
